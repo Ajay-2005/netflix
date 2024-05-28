@@ -58,7 +58,7 @@ function Header() {
                                     </IconButton>
                                 ),
                             }}
-                            style={{ backgroundColor:"#fff" }}
+                            style={{ backgroundColor:"#fff" ,widows:"50px", height:"40px",justifyContent:"center"}}
                         />
                     </div>
                    
