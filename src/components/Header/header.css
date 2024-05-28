@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.Header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+    height: 5vh;
+    background-color: #201d1d;
+}
+.Header-container {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-left ul {
+    display: flex;
+    width: 150%;
+    justify-content: space-between;
+}
+
+.Header-left ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 120px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.Header-right {   
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    margin-right: 20px;
+}
+.avatar {
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
