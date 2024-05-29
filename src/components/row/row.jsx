@@ -11,7 +11,7 @@ const Row = ({ title, fetchurl, isLarge }) => {
         const fetchData = async () => {
             try {
                 const response = await axios.get(fetchurl);
-                console.log(response.data);
+                
                 setMovies(response.data.results);
             } catch (error) {
                 console.error("Error in fetching requests", error);
